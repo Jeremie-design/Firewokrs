@@ -52,7 +52,15 @@ def main():
 
         screen.fill((0, 0, 0))
 
-      
+        for trail in trails:
+            fade = 1 - (trail["duration"] / 20)
+            brightness = int(180 * fade)
+            pygame.draw.circle(screen, (brightness, brightness, brightness), (trail["x"], trail["y"]), 3)
+
+        for ball in balls:
+            r, g, b = ball["color"]
+            faded_color = (int(r * ball["fade"]), int(g * ball["fade"]), int(b * ball["fade"]))
+            pygame.draw.circle(screen, faded_color, (ball["x"], ball["y"]), int(ball["radius"]))
 
         pygame.display.flip()
         clock.tick(60)
