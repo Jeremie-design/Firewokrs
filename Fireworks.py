@@ -50,11 +50,9 @@ def main():
                 new_trails.append(trail)
         trails = new_trails
 
+        screen.fill((0, 0, 0))
+
       
-        for ball in balls:
-            r, g, b = ball["color"]
-            faded_color = (int(r * ball["fade"]), int(g * ball["fade"]), int(b * ball["fade"]))
-            pygame.draw.circle(screen, faded_color, (ball["x"], ball["y"]), int(ball["radius"]))
 
         pygame.display.flip()
         clock.tick(60)
