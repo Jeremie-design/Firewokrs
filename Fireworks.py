@@ -12,7 +12,13 @@ def main():
     clock = pygame.time.Clock()
 
     colors = [
-       (0,0,0)
+       (0, 255, 255),  # Cyan
+        (255, 0, 255),  # Magenta
+        (255, 255, 0),  # Yellow
+        (255, 165, 0),  # Orange
+        (0, 128, 0),    # Green
+        (0, 0, 255),    # Blue
+        (255, 0, 0)     # Red  
         
         ]
 
