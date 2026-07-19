@@ -12,12 +12,8 @@ def main():
     clock = pygame.time.Clock()
 
     colors = [
-        (255, 179, 186),  #  Pink
-        (255, 223, 186),  #  Peach
-        (255, 255, 186),  # Yellow
-        (186, 255, 201),  #  Mint
-        (186, 225, 255),  # Blue
-        (221, 160, 221),  # Lavender
+       (0,0,0)
+        
         ]
 
     balls = []
