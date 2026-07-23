@@ -30,3 +30,31 @@ COLORS = [
 def make_rocket(x, y):
     return {"x": x, "y": y, "color": random.choice(COLORS), "duration": 0}
 
+def update_rocket(rocket):
+    rocket["duration"] += 2
+    rocket["y"] -= 2
+
+
+def main():
+    pygame.init()
+    screen = pygame.display.set_mode((800, 600))
+    pygame.display.set_caption("Fireworks")
+    clock = pygame.time.Clock()
+
+    rockets = []
+    trails = []
+    particles = []
+
+    running = True
+    while running:
+        for event in pygame.event.get():
+            if event.type == pygame.QUIT:
+                running = False
+            elif event.type == pygame.MOUSEBUTTONDOWN and event.button == 1:
+                x, y = event.pos
+                rockets.append(make_rocket(x, y))
+                print (f"Rocket launched at ({x}, {y})")
+
+
+if __name__ == "__main__":
+    main()
