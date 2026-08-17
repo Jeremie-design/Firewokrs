@@ -2,11 +2,11 @@ import pygame
 import random
 import math
 
-FUSE_TIME = 190          # duration units before a rocket bursts
-BURST_FADE_TIME = 40     # how long burst particles take to fully fade
-TRAIL_LIFETIME = 20      # how long a rising rocket's trail dot lingers
-PARTICLE_COUNT = 30      # sparks per burst
-GRAVITY = 0.05           # slight downward pull on burst sparks
+FUSE_TIME = 190         
+BURST_FADE_TIME = 40     
+TRAIL_LIFETIME = 20      
+PARTICLE_COUNT = 30      
+GRAVITY = 0.05           
 
 COLORS = [
     (255, 179, 186),  # Pink
