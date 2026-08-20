@@ -2,6 +2,7 @@
 #ss
 #hjsjs 
 #hhshwb
+#hwgwh 
 
 import pygame
 import random
