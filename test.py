@@ -1,11 +1,4 @@
 # Need to import this later 
-#ss
-#hjsjs 
-#hhshwb
-#hwgwh 
-# hwhw 
-##hw
-##272
 
 #hshj
 import pygame
