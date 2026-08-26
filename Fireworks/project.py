@@ -1,6 +1,3 @@
-# Need to import this later 
-
-#hshj
 import pygame
 import random
 import math
