@@ -2,7 +2,7 @@ import pygame
 import random
 import math
 
-FUSE_TIME = 190         
+FUSE_TIME = 500      
 BURST_FADE_TIME = 40     
 TRAIL_LIFETIME = 20      
 PARTICLE_COUNT = 30      
