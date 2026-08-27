@@ -1,6 +1,10 @@
 # Fireworks Simulator
 
-#### Video Demo:
+#### Video Demo : [ Not added because I sound corny] 
+
+#### Note before Project 
+This entire project was made for CS50P, which I completed not too long ago while I was in high school. The course taught me almost everything I needed to know about Python and has helped me make a lot of cool things. Coding was painful most of the times. Even watching the lectures made it hard, but having some food made it easier. Overall, I am really proud of what I accomplished. My CS50P certificate is also at the bottom.
+
 
 #### Description
 
@@ -25,3 +29,6 @@ pygame. Pytest can test them directly without opening a window.
 
 Every rocket, trail spark, and particle is discarded the moment it's outlived its purpose, by filtering each list down to only the entries still worth keeping, once per frame. So the program doesn't slowly accumulate invisible, pointless objects the longer it runs.
 The goal of this project was to create a simple but fun fireworks simulator that feels natural and responsive. The combination of random colors, directions, speeds, fading particles, and gravity makes each firework slightly different. Multiple fireworks can also be launched at once, allowing the display to build up with each click. This project was really fun and very hard to make, but overall I am really happy with what I made.
+
+![CS50 Certificate for Jeremie Kwapong](https://cs50.harvard.edu/certificates/1a13fbbe-adb0-44f4-85d7-8978b9a206c3.png?size=letter)
+
